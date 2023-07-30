@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mlflow = "*"
+scikit-learn = "*"
+pandas = "*"
+seaborn = "*"
+hyperopt = "*"
+xgboost = "*"
+prefect = "*"
+boto3 = "*"
+fastparquet = "*"
+requests = "*"
+pyarrow = "*"
+ipykernel = "*"
+evidently = "*"
+scipy = "*"
+gcsfs = "*"
+s3fs = "*"
+aiobotocore = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

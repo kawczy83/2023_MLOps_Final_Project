@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+boto3 = "*"
+mlflow = "*"
+scikit-learn = "*"
+fsspec = "*"
+s3fs = "*"
+poetry = "*"
+pre-commit = "*"
+pip = "*"
+
+[dev-packages]
+pytest = "*"
+deepdiff = "*"
+pylint = "*"
+black = "*"
+isort = "*"
+pre-commit = "*"
+
+[requires]
+python_version = "3.11"
