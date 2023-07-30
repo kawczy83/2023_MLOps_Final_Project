@@ -1,5 +1,3 @@
-# Change for own project
-
 # Experiment Tracking and Model Registry
 
 This section aims to perform experiment tracking and register best models using MLflow. 
