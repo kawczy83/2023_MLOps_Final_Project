@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+click = "*"
+pandas = "*"
+scikit-learn = "*"
+optuna = "*"
+grpcio = "*"
+protobuf = "*"
+mlflow = "*"
+boto3 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
